@@ -53,7 +53,6 @@ formEl.addEventListener("submit", (e) => {
   document.querySelector(
     "h1"
   ).textContent = `Results for "${searchInputEl.value}"`;
-  searchInputEl.value = "";
 });
 
 showMoreEl.addEventListener("click", () => {
