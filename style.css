@@ -114,7 +114,7 @@ h1 {
   font-size: 2.25rem;
   font-weight: bold;
   text-align: center;
-  margin-top: 2.5rem;
+  margin-top: 4.5rem;
   margin-bottom: 3.75rem;
 }
 
@@ -179,6 +179,8 @@ form {
 .search-result a {
   padding: 0.625rem;
   display: block;
+  text-align: center;
+  font-weight: 600;
   color: #333;
   transition: background-color 0.3s ease-in-out;
 }
@@ -193,6 +195,8 @@ form {
   color: #333;
   cursor: pointer;
   transition: all 0.3s;
+  display: none;
+  margin-bottom: 3rem;
 }
 
 .show-more-button:hover {
